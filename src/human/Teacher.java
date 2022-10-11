@@ -1,4 +1,4 @@
-package src.human;
+package com.javarush.task.task29.task2909.human;
 
 public class Teacher extends UniversityPerson {
     private int numberOfStudents;
@@ -8,15 +8,15 @@ public class Teacher extends UniversityPerson {
         this.numberOfStudents = numberOfStudents;
     }
 
+    @Override
+    public String getPosition() {
+        return "Преподаватель";
+    }
+
     public void live() {
         teach();
     }
 
     public void teach() {
-    }
-
-    @Override
-    public String getPosition() {
-        return "Преподаватель";
     }
 }

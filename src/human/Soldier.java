@@ -1,4 +1,4 @@
-package src.human;
+package com.javarush.task.task29.task2909.human;
 
 public class Soldier extends Human{
 

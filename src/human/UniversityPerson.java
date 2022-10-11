@@ -1,4 +1,4 @@
-package src.human;
+package com.javarush.task.task29.task2909.human;
 
 
 public class UniversityPerson extends Human{
@@ -8,11 +8,11 @@ public class UniversityPerson extends Human{
         super(name, age);
     }
 
-    public University getUniversity() {
-        return university;
-    }
-
     public void setUniversity(University university) {
         this.university = university;
+    }
+
+    public University getUniversity() {
+        return university;
     }
 }

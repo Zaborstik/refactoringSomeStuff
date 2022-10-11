@@ -1,4 +1,4 @@
-package src.human;
+package com.javarush.task.task29.task2909.human;
 
 public class Worker extends Human {
     private double salary;
@@ -8,15 +8,13 @@ public class Worker extends Human {
         super(name, age);
     }
 
-    public void live() {
-        live();
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public double getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
+    public void live() {}
 }
