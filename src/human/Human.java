@@ -51,8 +51,7 @@ public class Human implements Alive{
         this.name = name;
     }
 
-    public void live() {
-    }
+    public void live() {}
 
     public int getId() {
         return id;
@@ -76,5 +75,13 @@ public class Human implements Alive{
 
     public void printSize() {
         System.out.println("Рост: " + size[0] + " Вес: " + size[1]);
+    }
+
+    public String getPosition(){
+        return "Человек";
+    }
+
+    public void printData() {
+        System.out.println(getPosition() + ": " + name);
     }
 }
