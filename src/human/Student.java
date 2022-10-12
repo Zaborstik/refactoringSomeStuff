@@ -1,4 +1,4 @@
-package com.javarush.task.task29.task2909.human;
+package src.human;
 
 import java.util.Date;
 
@@ -14,7 +14,7 @@ public class Student extends UniversityPerson {
     }
 
     public void incAverageGrade(double delta){
-        averageGrade+=delta;
+        setAverageGrade(getAverageGrade() + delta);
     }
 
     public void setAverageGrade(double averageGrade) {

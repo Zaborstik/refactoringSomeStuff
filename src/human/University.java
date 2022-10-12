@@ -1,4 +1,4 @@
-package com.javarush.task.task29.task2909.human;
+package src.human;
 
 import java.util.ArrayList;
 import java.util.List;
